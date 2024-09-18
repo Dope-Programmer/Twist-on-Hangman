@@ -49,7 +49,7 @@ If the letter exists, it will lead to the function inside the player that saves 
 ![saveIndexAndLetter-Drongo](https://github.com/user-attachments/assets/df6adcd8-feae-4541-92f2-37e464384160) ![SaveIndexAndLetterFunction-Drongo2](https://github.com/user-attachments/assets/37f46384-99e6-4e6f-9f14-53857295a182)
 
 ##### Reveal letter
-This leads us to the next step: to reveal the letter. When we want to reveal the correct guessed letter, we get the structure that holds the saved letter and index. To reveal it, we get the correct index in the array of the letter-widgets we generated in the Create Widgets function.
+This leads us to the next step: to reveal the letter. When we want to reveal the correct guessed letter, we get the structure that holds the saved letter and index. To reveal it, we get the correct index in the array of the letter-widgets we generated in the Create Widgets function. All in all, this blueprint ensures that the letter is displayed at the correct place in the word. 
 
 ![RevealLetterFunction](https://github.com/user-attachments/assets/70721cb0-806e-4cfa-a147-4c1cfe04fe86)
 
@@ -57,6 +57,10 @@ This leads us to the next step: to reveal the letter. When we want to reveal the
 Having shown a part of the process, this is the result:
 
 In this video you see if the player guesses all wordscorrect, along with a victory scene.
+
+
+
+https://github.com/user-attachments/assets/231eb474-44e0-4682-ae33-efbe9b78eb33
 
 
 
@@ -70,4 +74,8 @@ And well, if you touch the lava, or runs out of time and chances, you die.
 
 ##  Reflection and Learning
 
-This project has taught me a lot about using Blueprints to manage game logic more efficiently. By working on the dynamic letter generation and player consequences, I gained experience with visual scripting and logic flow in Unreal Engine. Next, I plan to refine the level design, add levels and more action to the gameplay, as well as polish more the player interactions.
+This project has taught me a lot about using Blueprints to manage game logic more efficiently. By working on the dynamic letter generation and player consequences, I gained experience with visual scripting and logic flow in Unreal Engine. This is also a project with the most managing of arrays i have ever had in a game. 
+
+## Plans
+
+I plan to refine the level design, add levels, rooms with different themes, more action and enemies to the gameplay, polish the player interactions and broaden the hangman logic. In th end, it would be interesting to make into more of Call Of Duty style. 
