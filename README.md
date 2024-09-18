@@ -4,7 +4,6 @@ This is my first project in Unreal Engine and my introduction to working with Bl
 ![haangman omslag](https://github.com/user-attachments/assets/8e23d2e1-b8b2-4a09-8900-47074d6a5ebc)
 
 ## Key features:
-
 ### So far, I have these features: 
 
 * Dynamic Letter Generation: Players collect letters dynamically that's placed in the level.
@@ -14,7 +13,6 @@ This is my first project in Unreal Engine and my introduction to working with Bl
 * Blueprint-Driven Mechanics: Everything is built using Unreal Engine Blueprints.
 
 ## Blueprint Overview
-
 In this section, I'll explain a little bit the key logic behind how my hangman game works.
 
 #### Select A Random Word
@@ -67,5 +65,4 @@ And here, you can see what happens when the player guesses wrong—they either r
 This project helped me learn a lot about using Unreal Engine's Blueprint system to create game mechanics. I gained experience managing game logic, especially when it came to generating letters dynamically and tracking player guesses. This is the most work I’ve done with arrays in a game, and it really helped me improve my skills in handling game data.
 
 ## Plans
-
 For the future, I plan to improve the level design and add new levels with different themes. I also want to introduce more action, enemies, and challenges. My goal is to take this project further, possibly adding a faster-paced, action-packed style while keeping the unique hangman mechanics.
