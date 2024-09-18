@@ -54,9 +54,9 @@ Now, it's time to reveal the correct letter. When a correct guess is made, the B
 ![RevealLetterFunction](https://github.com/user-attachments/assets/70721cb0-806e-4cfa-a147-4c1cfe04fe86)
 
 ## Result:
-Now that you've seen a little bit of the Blueprint logic in action, here are the results. 
+Now that you've seen a little bit of the Blueprint logic, here are the results. 
 
-In this first video, the player guesses the word correctly, leading to a satisfying victory. Yay!
+In this first video, the player guesses the word correctly, leading to a victory. Yay!
 
 https://github.com/user-attachments/assets/231eb474-44e0-4682-ae33-efbe9b78eb33
 
@@ -66,9 +66,8 @@ And here, you can see what happens when the player guesses wrong—they either r
 ![Lavadead HD-gif](https://github.com/user-attachments/assets/f9df5ef3-2a17-4bb9-a697-b2eed238597d)
 
 ##  Reflections
-
-This project has taught me a lot about using Blueprints to manage game logic more efficiently. By working on the dynamic letter generation and player consequences, I gained experience with visual scripting and logic flow in Unreal Engine. This is also a project with the most managing of arrays i have ever had in a game. 
+This project helped me learn a lot about using Unreal Engine's Blueprint system to create game mechanics. I gained experience managing game logic, especially when it came to generating letters dynamically and tracking player guesses. This is the most work I’ve done with arrays in a game, and it really helped me improve my skills in handling game data.
 
 ## Plans
 
-I plan to refine the level design, add levels, rooms with different themes, more action and enemies to the gameplay, polish the player interactions and broaden the hangman logic. In th end, it would be interesting to make into more of Call Of Duty style. 
+For the future, I plan to improve the level design and add new levels with different themes. I also want to introduce more action, enemies, and challenges. My goal is to take this project further, possibly adding a faster-paced, action-packed style while keeping the unique hangman mechanics.
