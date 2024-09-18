@@ -41,7 +41,7 @@ Now, let's say the player has finally picked up a letter and dumps it. I have ot
 
 ![saveIndexAndLetter-Drongo](https://github.com/user-attachments/assets/df6adcd8-feae-4541-92f2-37e464384160) ![SaveIndexAndLetterFunction-Drongo2](https://github.com/user-attachments/assets/37f46384-99e6-4e6f-9f14-53857295a182)
 
-Which leads us to the next step: To reveal the letter. When we want to reveal the correct guessed letter, we get the structure that holds the saved letter and index, and to reveal it, we get the matching index in the array of widgets we generated in the Create Widget function.
+Which leads us to the next step: To reveal the letter. When we want to reveal the correct guessed letter, we get the structure that holds the saved letter and index, and to reveal it, we get the correct index in the array of widgets we generated in the Create Widget function.
 
 ![RevealLetterFunction](https://github.com/user-attachments/assets/70721cb0-806e-4cfa-a147-4c1cfe04fe86)
 
