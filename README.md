@@ -48,15 +48,15 @@ Which leads us to the next step: To reveal the letter. When we want to reveal th
 ## Result:
 Having shown a part of the process, this is the result:
 
-In this video see if the player guesses correct, along iwth a victory scene.
+In this video you see if the player guesses all wordscorrect, along with a victory scene.
 
 https://github.com/user-attachments/assets/1eef12ec-39e8-426c-b27e-0b98f8c27e85
 
-And here its where the player guesses wrong:
+And here it's where the player guesses wrong:
 
 ![Hangman-NO HD2 Speed1 8-gif](https://github.com/user-attachments/assets/2a0ca817-e7f8-4aba-9ee6-68758f1a2bcd)
 
-And well, you touch the lava, you die.
+And well, if you touch the lava, you die.
 
 ![Lavadead HD-gif](https://github.com/user-attachments/assets/f9df5ef3-2a17-4bb9-a697-b2eed238597d)
 
