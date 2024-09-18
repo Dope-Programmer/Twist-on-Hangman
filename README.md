@@ -19,7 +19,7 @@ While the current version is basic, with no detailed level design yet, the core 
 
 In this section, I'll explain a little bit the key logic behind how my hangman game works.
 
-#### Select a random word
+#### Select A Random Word
 To begin, just like in a traditional hangman game, we need to pick a secret word. I created an actor in my scene called WordLogic that includes a function called Select Random Word. This function randomly picks a word from a list for the player to guess, ensuring each playthrough feels fresh. Instead of importing word files, I chose to create a custom word list directly in the Blueprint, giving me more control over the gameplay. I also included a separate function to generate baselines, which visually show the length of the secret word.
 
 ![WordLogic](https://github.com/user-attachments/assets/efe40b26-67da-4cab-b50f-99b3b2838f6c)
@@ -33,7 +33,7 @@ The Create Widgets function ensures that the widgets are generated with the corr
 
 ![CreateWidgetFunction2](https://github.com/user-attachments/assets/bd1ba6dc-cd39-45be-9644-474dc1787c18)
 
-#### Letter holder
+#### Letter Holder
 Inside another widget, I created a Letter Holder. This acts as a placeholder for each letter the player guesses correctly. Initially, it shows a generic symbol (I used the letter "N" as a placeholder), which is replaced with the correct letter once the player makes a right guess.
 
 ![LetterHolder](https://github.com/user-attachments/assets/2b32ff93-8a53-469e-9b1a-a877e10592d7)
@@ -43,12 +43,12 @@ Once the player selects a letter and drops it into the game, the Blueprint runs 
 
 ![InventorySystem-LetterConatins](https://github.com/user-attachments/assets/f1849569-39ff-41c5-8a9e-c240a7b77cec)
 
-#### Save letter and index
+#### Save Letter And Index
 If the player's guess is correct, the Blueprint saves the letter and its position in the word using a data structure (struct). This makes sure that the game remembers which letters have been guessed correctly and where they belong in the word.
 
 ![saveIndexAndLetter-Drongo](https://github.com/user-attachments/assets/df6adcd8-feae-4541-92f2-37e464384160) ![SaveIndexAndLetterFunction-Drongo2](https://github.com/user-attachments/assets/37f46384-99e6-4e6f-9f14-53857295a182)
 
-#### Reveal letter
+#### Reveal Letter
 Now, it's time to reveal the correct letter. When a correct guess is made, the Blueprint retrieves the saved letter and its index. Using the index, the game updates the correct placeholder in the letter-widget array, revealing the letter in the right spot on the screen.  
 
 ![RevealLetterFunction](https://github.com/user-attachments/assets/70721cb0-806e-4cfa-a147-4c1cfe04fe86)
