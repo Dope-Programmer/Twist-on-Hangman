@@ -55,3 +55,11 @@ https://github.com/user-attachments/assets/1eef12ec-39e8-426c-b27e-0b98f8c27e85
 And here its where the player guesses wrong:
 
 ![Hangman-NO HD2 Speed1 8-gif](https://github.com/user-attachments/assets/2a0ca817-e7f8-4aba-9ee6-68758f1a2bcd)
+
+And well, you touch the lava, you die.
+
+https://github.com/user-attachments/assets/66ad47ad-c29c-413f-8b8d-3feed0ffc278
+
+##  Reflection and Learning
+
+This project has taught me a lot about using Blueprints to manage game logic more efficiently. By working on the dynamic letter generation and player consequences, I gained experience with visual scripting and logic flow in Unreal Engine. Next, I plan to refine the level design, add levels and more action to the gameplay, as well as polish more the player interactions.
