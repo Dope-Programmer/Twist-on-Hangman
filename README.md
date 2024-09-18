@@ -8,11 +8,12 @@ While the current version is basic, with no detailed level design yet, the core 
 ## Key features:
 
 ### So far, I have these features: 
-Dynamic Letter Generation: Players collect letters dynamically that's placed in the level.
-Lava Hazard: The lava floor rises the more time passes.
-Timer: As of now, the timer is 4 minutes.
-Multiple Guess Chances: Players get several attempts to guess the word.
-Blueprint-Driven Mechanics: Everything is built using Unreal Engine Blueprints for a clean, visual workflow.
+
+*Dynamic Letter Generation: Players collect letters dynamically that's placed in the level.
+*Lava Hazard: The lava floor rises the more time passes.
+*Timer: As of now, the timer is 4 minutes.
+*Multiple Guess Chances: Players get several attempts to guess the word.
+*Blueprint-Driven Mechanics: Everything is built using Unreal Engine Blueprints for a clean, visual workflow.
 
 ## Blueprint
 
