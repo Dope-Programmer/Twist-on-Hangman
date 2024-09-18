@@ -21,11 +21,11 @@ While the current version is basic, with no detailed level design yet, the core 
 
 #### How I dynamically generate widgets for the players to guess:
 
-To start with, i have an actor in my scene called "WordLogic". This is the actor that holds the function that randomly selects a word. As a beginne rin unreal, i kept it simple by makign a list myself instead of importing files.
+To start with, i have an actor in my scene called WordLogic. This is the actor that holds the function that randomly selects a word. As a beginner in unreal, I kept it simple by making a list myself instead of importing files.
 
 ![WordLogic](https://github.com/user-attachments/assets/efe40b26-67da-4cab-b50f-99b3b2838f6c)
 
-In my scene I have another actor name "DisplaylettersActor". Inside the actor I have a function called Create Widgets. This function is what generates the widgets in the same length as the secret word which is randomly selected from a list during the start of the game. 
+In my scene I have another actor name DisplaylettersActor. Inside the actor I have a function called Create Widgets. This function is what generates the widgets in the same length as the secret word that is selected during the start. 
 
 ![CreateWidgetFunction](https://github.com/user-attachments/assets/8d45d2fa-1a10-4fcc-a657-6772aa485029)
 
@@ -41,7 +41,9 @@ Now, let's say the player has finally picked up a letter and dumps it. I have ot
 
 ![saveIndexAndLetter-Drongo](https://github.com/user-attachments/assets/df6adcd8-feae-4541-92f2-37e464384160) ![SaveIndexAndLetterFunction-Drongo2](https://github.com/user-attachments/assets/37f46384-99e6-4e6f-9f14-53857295a182)
 
-Which lead us to the next step: To reveal the letter.  
+Which leads us to the next step: To reveal the letter. When we want to reveal the correct guessed letter, we get the structure that holds the saved letter and index, and to reveal it, we get the matching index in the array of widgets we generated in the Create Widget function.
+
+![RevealLetterFunction](https://github.com/user-attachments/assets/70721cb0-806e-4cfa-a147-4c1cfe04fe86)
 
 ## Result:
 Having shown a part of the process, this is the result:
