@@ -56,7 +56,7 @@ And here it's where the player guesses wrong:
 
 ![Hangman-NO HD2 Speed1 8-gif](https://github.com/user-attachments/assets/2a0ca817-e7f8-4aba-9ee6-68758f1a2bcd)
 
-And well, if you touch the lava, you die.
+And well, if you touch the lava, or runs out of time and chances, you die.
 
 ![Lavadead HD-gif](https://github.com/user-attachments/assets/f9df5ef3-2a17-4bb9-a697-b2eed238597d)
 
