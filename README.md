@@ -38,7 +38,7 @@ Inside another widget, I created a Letter Holder. This acts as a placeholder for
 
 ![LetterHolder](https://github.com/user-attachments/assets/2b32ff93-8a53-469e-9b1a-a877e10592d7)
 
-#### Letter Conatins?
+#### Letter Contains
 Once the player selects a letter and drops it into the game, the Blueprint runs a function to check if the guessed letter exists in the secret word. This process goes through the letter list and compares it with the secret word, as shown in my inventory system Blueprint.
 
 ![InventorySystem-LetterConatins](https://github.com/user-attachments/assets/f1849569-39ff-41c5-8a9e-c240a7b77cec)
