@@ -56,7 +56,7 @@ This leads us to the next step: to reveal the letter. When we want to reveal the
 ## Result:
 Having shown a part of the process, this is the result:
 
-In this video you see if the player guesses all wordscorrect, along with a victory scene.
+Watch the player win after guessing correctly!
 
 https://github.com/user-attachments/assets/231eb474-44e0-4682-ae33-efbe9b78eb33
 
