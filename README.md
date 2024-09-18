@@ -58,7 +58,7 @@ And here its where the player guesses wrong:
 
 And well, you touch the lava, you die.
 
-https://github.com/user-attachments/assets/66ad47ad-c29c-413f-8b8d-3feed0ffc278
+![Lavadead HD-gif](https://github.com/user-attachments/assets/f9df5ef3-2a17-4bb9-a697-b2eed238597d)
 
 ##  Reflection and Learning
 
