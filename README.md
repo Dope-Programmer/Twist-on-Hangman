@@ -19,12 +19,37 @@ While the current version is basic, with no detailed level design yet, the core 
 
 ### Letter Generation Blueprint
 
-How I dynamically generate letters for players to collect and guess.
+#### How I dynamically generate widgets for the players to guess:
 
+To start with, i have an actor in my scene called "WordLogic". This is the actor that holds the function that randomly selects a word. As a beginne rin unreal, i kept it simple by makign a list myself instead of importing files.
 
-Having shown a part of the process, this it the result:
+![WordLogic](https://github.com/user-attachments/assets/efe40b26-67da-4cab-b50f-99b3b2838f6c)
+
+In my scene I have another actor name "DisplaylettersActor". Inside the actor I have a function called Create Widgets. This function is what generates the widgets in the same length as the secret word which is randomly selected from a list during the start of the game. 
+
+![CreateWidgetFunction](https://github.com/user-attachments/assets/8d45d2fa-1a10-4fcc-a657-6772aa485029)
+
+This function ensures that the widgets is generated with the correct index placement.
+
+![CreateWidgetFunction2](https://github.com/user-attachments/assets/bd1ba6dc-cd39-45be-9644-474dc1787c18)
+
+In another widget, I have a letter that acts as a "Letter holder" that will later be replaced with the letter player guessed correctly. N simply stand for "Name".
+
+![LetterHolder](https://github.com/user-attachments/assets/2b32ff93-8a53-469e-9b1a-a877e10592d7)
+
+Now, let's say the player has finally picked up a letter and dumps it. I have other functions that goes through lists and checks if the letter that the player has guessed exists in the secret word. If the letter exists, it will lead to the function I in the player that saves the correct gussed letter and its index in a struct, as you can see below.
+
+![saveIndexAndLetter-Drongo](https://github.com/user-attachments/assets/df6adcd8-feae-4541-92f2-37e464384160) ![SaveIndexAndLetterFunction-Drongo2](https://github.com/user-attachments/assets/37f46384-99e6-4e6f-9f14-53857295a182)
+
+Which lead us to the next step: To reveal the letter.  
+
+## Result:
+Having shown a part of the process, this is the result:
+
+In this video see if the player guesses correct, along iwth a victory scene.
 
 https://github.com/user-attachments/assets/1eef12ec-39e8-426c-b27e-0b98f8c27e85
 
+And here its where the player guesses wrong:
 
-
+![Hangman-NO HD2 Speed1 8-gif](https://github.com/user-attachments/assets/2a0ca817-e7f8-4aba-9ee6-68758f1a2bcd)
