@@ -1,7 +1,7 @@
 # Twist on Hangman - WIP.
 This is my first project in Unreal Engine and my introduction to working with Blueprints. The game blends the classic Hangman concept with the challenge of "The Floor is Lava," all set in an arena-style level. Players guess a secret word by collecting and dropping letters scattered throughout the level. You win by guessing the word correctly, but lose if you run out of chances or fall into the lava. The current version is still simple, with no detailed level design yet, but the core mechanics—guessing letters, winning, and losing—are all working. I’m really excited about this project and plan to keep developing it!
 
-![haangman omslag](https://github.com/user-attachments/assets/8e23d2e1-b8b2-4a09-8900-47074d6a5ebc)
+![haangman omslag-2](https://github.com/user-attachments/assets/63c69eca-a6a1-435e-887b-adba68b11b02)
 
 ## Key features:
 ### So far, I have these features: 
@@ -63,6 +63,3 @@ And here, you can see what happens when the player guesses wrong—they either r
 
 ##  Reflections
 This project helped me learn a lot about using Unreal Engine's Blueprint system to create game mechanics. I gained experience managing game logic, especially when it came to generating letters dynamically and tracking player guesses. This is the most work I’ve done with arrays in a game, and it really helped me improve my skills in handling game data.
-
-## Plans
-For the future, I plan to improve the level design and add new levels with different themes. I also want to introduce more action, enemies, and challenges. My goal is to take this project further, possibly adding a faster-paced, action-packed style while keeping the unique hangman mechanics.
