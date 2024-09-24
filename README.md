@@ -8,7 +8,7 @@ This is my first project in Unreal Engine and my introduction to working with Bl
 
 * Dynamic Letter Generation: Players collect letters dynamically that's placed in the level.
 * Lava Hazard: The lava floor rises the more time passes.
-* Timer: As of now, the timer is 4 minutes. If the player guesses correct, they gain for example 5 seconds. If they guess wrong, they lose 5 seconds.
+* Timer: As of now, the timer is 4 minutes. If the player guesses correct, they gain for example 10 seconds. If they guess wrong, they lose 10 seconds.
 * Multiple Guess Chances: Players get several attempts to guess the word.
 * Blueprint-Driven Mechanics: Everything is built using Unreal Engine Blueprints.
 
