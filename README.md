@@ -13,7 +13,6 @@ This is my first project in Unreal Engine and my introduction to working with Bl
 * Blueprint-Driven Mechanics: Everything is built using Unreal Engine Blueprints.
 
 ## Result:
-A review of the results. 
 
 In this first video, the player guesses the word correctly, leading to a victory. Yay!
 
