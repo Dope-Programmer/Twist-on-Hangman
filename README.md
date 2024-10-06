@@ -12,6 +12,20 @@ This is my first project in Unreal Engine and my introduction to working with Bl
 * Multiple Guess Chances: Players get several attempts to guess the word.
 * Blueprint-Driven Mechanics: Everything is built using Unreal Engine Blueprints.
 
+## Result:
+A review of the results. 
+
+In this first video, the player guesses the word correctly, leading to a victory. Yay!
+
+https://github.com/user-attachments/assets/231eb474-44e0-4682-ae33-efbe9b78eb33
+
+And here, you can see what happens when the player guesses wrong—they either run out of time or fall into the lava, ending the game.
+
+![Hangman-NO HD2 Speed1 8-gif](https://github.com/user-attachments/assets/2a0ca817-e7f8-4aba-9ee6-68758f1a2bcd)
+![Lavadead HD-gif](https://github.com/user-attachments/assets/f9df5ef3-2a17-4bb9-a697-b2eed238597d)
+
+# Process
+
 ## Blueprint Overview
 In this section, I'll explain a little bit the key logic behind how my hangman game works.
 
@@ -48,18 +62,6 @@ If the player's guess is correct, the Blueprint saves the letter and its positio
 Now, it's time to reveal the correct letter. When a correct guess is made, the Blueprint retrieves the saved letter and its index. Using the index, the game updates the correct placeholder in the letter-widget array, revealing the letter in the right spot on the screen.  
 
 ![RevealLetterFunction](https://github.com/user-attachments/assets/70721cb0-806e-4cfa-a147-4c1cfe04fe86)
-
-## Result:
-Now that you've seen a little bit of the Blueprint logic, here are the results. 
-
-In this first video, the player guesses the word correctly, leading to a victory. Yay!
-
-https://github.com/user-attachments/assets/231eb474-44e0-4682-ae33-efbe9b78eb33
-
-And here, you can see what happens when the player guesses wrong—they either run out of time or fall into the lava, ending the game.
-
-![Hangman-NO HD2 Speed1 8-gif](https://github.com/user-attachments/assets/2a0ca817-e7f8-4aba-9ee6-68758f1a2bcd)
-![Lavadead HD-gif](https://github.com/user-attachments/assets/f9df5ef3-2a17-4bb9-a697-b2eed238597d)
 
 ##  Reflections
 This project helped me learn a lot about using Unreal Engine's Blueprint system to create game mechanics. I gained experience managing game logic, especially when it came to generating letters dynamically and tracking player guesses. This is the most work I’ve done with arrays in a game, and it really helped me improve my skills in handling game data.
